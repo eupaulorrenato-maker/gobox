@@ -1,0 +1,22 @@
+{
+  "name": "gobox-controle",
+  "version": "1.0.0",
+  "description": "Sistema interno de controle operacional e portal de consulta para fornecedores da GoBox",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "gobox",
+    "logistica",
+    "controle-interno",
+    "fornecedores"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
